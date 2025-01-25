@@ -3,8 +3,8 @@
 BookBazaar is a comprehensive library management system that integrates both a relational database (SQLite) and a non-relational database (MongoDB). The project involves designing databases, connecting them to a Python application, developing RESTful APIs with Flask, and deploying these APIs using an Apache web server. Through these tasks, learners will gain hands-on experience in full-stack development, including database design, Python integration, API creation, testing with Postman, and server deployment.
 
 ## Task 1:
+## Set Up the Relational Database with SQLite
 
-Set Up the Relational Database with SQLite
 **Description:** 
 - You will create and set up a SQLite database file to store structured data for books, authors, and user information.
 - SQLite is a file-based database that does not require a separate server
@@ -14,8 +14,8 @@ Set Up the Relational Database with SQLite
 3.    Ensure that your application or Python scripts will have permission to read and write to this database file
 
 ## Task 2:
+## Design the Relational Database Schema
 
-Design the Relational Database Schema
 **Description:**
 - You will design the database schema for your relational database.
 - This includes deciding on table structures and relationships.
@@ -28,8 +28,8 @@ Design the Relational Database Schema
 6.    Prepare SQL commands to create the tables and insert some sample data.
 
 ## Task 3:
+## Connect Python to SQLite
 
-Connect Python to SQLite
 **Description:**
 - You will establish a connection from Python to your SQLite database.
 - This connection will be used in subsequent tasks to run queries, insert data, and retrieve results
@@ -37,8 +37,8 @@ Connect Python to SQLite
 1.    Use Python’s built-in sqlite3 module to connect to the bookbazaar.db file.
 2.    Implement proper error handling in case the connection fails.
 3.    Confirm that you can successfully connect and close the connection.
-## Task 4:
 
+## Task 4:
 ## Title: Implement CRUD Operations on SQLite via Python
 **Description:**
 - You will create functions in Python to perform Create, Read, Update, and Delete (CRUD) operations on your SQLite database.
@@ -50,8 +50,8 @@ Connect Python to SQLite
 5.    Ensure your functions handle errors gracefully (e.g., if a book ID does not exist).
 
 ## Task 5:
+## Develop RESTful APIs with Python
 
-Develop RESTful APIs with Python
 **Description:**
 - You will build RESTful API endpoints so external clients can interact with your Books data stored in SQLite.
 ### Requirements:
@@ -65,8 +65,8 @@ o    DELETE /books/<id> to delete a book.
 4.    Handle invalid input and database errors with appropriate error responses.
 
 ## Task 6:
+## Test APIs Using Postman
 
-Test APIs Using Postman
 **Description:**
 - You will use Postman to test your API endpoints.
 - Postman is a tool that allows you to send HTTP requests and inspect responses easily.
@@ -81,8 +81,8 @@ o    Delete a book.
 4.    Verify that the responses are as expected and handle errors correctly.
 
 ## Task 7:
+## Host APIs on Apache Web Server
 
-Host APIs on Apache Web Server
 **Description:**
 - You will deploy your Flask application behind an Apache web server using mod_wsgi.
 - This simulates a more production-like environment.
@@ -93,8 +93,8 @@ Host APIs on Apache Web Server
 4.    Troubleshoot any server configuration issues (e.g., permission issues, missing modules).
 
 ## Task 8:
+## Title: Set Up the Non-Relational Database with MongoDB
 
-Title: Set Up the Non-Relational Database with MongoDB
 **Description:**
 - You will install and initialize a MongoDB database to store reviews.
 - MongoDB is a NoSQL database that stores data in JSON-like documents.
@@ -105,8 +105,8 @@ Title: Set Up the Non-Relational Database with MongoDB
 4.    Confirm that you can connect to and interact with the database using the Mongo shell or a MongoDB client.
 
 ## Task 9:
+## Connect Python to MongoDB Using PyMongo
 
-Connect Python to MongoDB Using PyMongo
 **Description:**
 - You will use PyMongo, a Python driver for MongoDB, to connect your Python application to the MongoDB database.
 ### Requirements:
@@ -116,8 +116,8 @@ Connect Python to MongoDB Using PyMongo
 4.    Confirm that you can perform simple operations (like db.command('ping')) to validate the connection. 
 
 ## Task 10:
+## Implement CRUD Operations on MongoDB via Python
 
-Implement CRUD Operations on MongoDB via Python
 **Description:**
 - You will create functions in Python to perform CRUD operations on the Reviews collection stored in MongoDB.
 ### Requirements:
@@ -127,8 +127,8 @@ Implement CRUD Operations on MongoDB via Python
 4.    Ensure proper error handling (e.g., handle cases where a review does not exist). 
 
 ## Task 11:
+## Integrate MongoDB Operations into the APIs
 
-Integrate MongoDB Operations into the APIs
 **Description:**
 - You will extend the Flask APIs to include endpoints that interact with the MongoDB database, allowing clients to manage reviews. "
 ### Requirements:
@@ -142,8 +142,8 @@ o    DELETE /reviews/<review_id> to delete a review.
 4.    Handle errors, such as invalid book IDs or review IDs that do not exist 
 
 ## Task 12:
+## Document the Entire Project
 
-Document the Entire Project
 **Description:**
 - You will compile comprehensive documentation that covers installation, setup, usage, and API details for the entire project. "
 ## Requirements:
