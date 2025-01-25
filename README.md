@@ -165,49 +165,49 @@ o    DELETE /reviews/<review_id> to delete a review.
 
 **Database Files:**
 
-bookbazaar.db: SQLite database file with tables for books, authors, and users.
-MongoDB database setup with reviews collection (bookbazaar_reviews).
+- bookbazaar.db: SQLite database file with tables for books, authors, and users.
+- MongoDB database setup with reviews collection (bookbazaar_reviews).
 
 
 **Python Scripts:**
 
-Script to set up SQLite database schema.
-Script for MongoDB connection and operations using PyMongo.
-Functions for CRUD operations on both SQLite and MongoDB.
+- Script to set up SQLite database schema.
+- Script for MongoDB connection and operations using PyMongo.
+- Functions for CRUD operations on both SQLite and MongoDB.
 
 
 **API Code:**
 
-Flask application with endpoints for managing books and reviews.
-Modularized API code integrating SQLite and MongoDB functionality.
+- Flask application with endpoints for managing books and reviews.
+- Modularized API code integrating SQLite and MongoDB functionality.
 
 
 **Postman Collection:**
 
-Postman collection file for testing all API endpoints, including sample requests and responses.
+- Postman collection file for testing all API endpoints, including sample requests and responses.
 
 
 **Sample Data:**
 
-SQLite data: Books, authors, and user information in .sql or .csv format.
-MongoDB data: Reviews in JSON format.
+- SQLite data: Books, authors, and user information in .sql or .csv format.
+- MongoDB data: Reviews in JSON format.
 
 
 **Deployment Configuration:**
 
-Apache configuration files for hosting Flask APIs with mod_wsgi.
-Deployed and accessible API endpoints tested on an Apache server.
+- Apache configuration files for hosting Flask APIs with mod_wsgi.
+- Deployed and accessible API endpoints tested on an Apache server.
 
 
 **Documentation:**
 
 Comprehensive project documentation (BookBazaar_Documentation.docx or .pdf), including:
-Project overview.
-Setup and installation instructions for SQLite, MongoDB, Flask, and Apache.
-API endpoint details with request/response examples.
-Troubleshooting tips.
+- Project overview.
+- Setup and installation instructions for SQLite, MongoDB, Flask, and Apache.
+- API endpoint details with request/response examples.
+- Troubleshooting tips.
 
 
-Final Integrated System
+**Final Integrated System**
 
 Fully operational library management system hosted on Apache, with working APIs and integrated SQLite and MongoDB databases.
