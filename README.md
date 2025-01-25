@@ -39,7 +39,7 @@ BookBazaar is a comprehensive library management system that integrates both a r
 3.    Confirm that you can successfully connect and close the connection.
 
 ## Task 4:
-## Title: Implement CRUD Operations on SQLite via Python
+## Implement CRUD Operations on SQLite via Python
 **Description:**
 - You will create functions in Python to perform Create, Read, Update, and Delete (CRUD) operations on your SQLite database.
 ### Requirements:
@@ -93,7 +93,7 @@ o    Delete a book.
 4.    Troubleshoot any server configuration issues (e.g., permission issues, missing modules).
 
 ## Task 8:
-## Title: Set Up the Non-Relational Database with MongoDB
+## Set Up the Non-Relational Database with MongoDB
 
 **Description:**
 - You will install and initialize a MongoDB database to store reviews.
