@@ -155,10 +155,12 @@ o    DELETE /reviews/<review_id> to delete a review.
 
 ## Final Notes and Tips for Learners:
 
-• Work incrementally. Complete one task at a time before moving on.
-• Keep thorough notes on what you do for each task, as these will help you when writing your documentation.
-•Troubleshoot issues by checking logs, reading error messages, and verifying your database connections.
-• Test frequently. Make use of Postman, and consider adding print statements or logging in your code to confirm that each part works as expected.
+- Work incrementally.
+- Complete one task at a time before moving on.
+- Keep thorough notes on what you do for each task, as these will help you when writing your documentation.
+- Troubleshoot issues by checking logs, reading error messages, and verifying your database connections.
+- Test frequently.
+- Make use of Postman, and consider adding print statements or logging in your code to confirm that each part works as expected.
 • By the end of this project, you should have a working library management system with integrated relational and non-relational databases, hosted APIs, and extensive documentation—equipping you with valuable full-stack development experience.
 
 ## Deliverable :
